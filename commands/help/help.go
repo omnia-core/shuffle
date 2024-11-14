@@ -1,6 +1,6 @@
 package help
 
-import "random-team/consts"
+import "github.com/kevinhwang-dev/random-team/consts"
 
 var (
 	cmdHelp = map[string]string{

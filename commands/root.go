@@ -1,14 +1,15 @@
 /*
-Copyright © 2024 NAME HERE <EMAIL ADDRESS>
+Copyright © 2024 Seunghyun Hwang <kevinhwang1227@gmail.com>
 */
-package cmd
+package commands
 
 import (
 	"os"
-	"random-team/cmd/flags"
-	"random-team/cmd/help"
-	"random-team/cmd/shuffle"
-	"random-team/consts"
+
+	"github.com/kevinhwang-dev/random-team/commands/flags"
+	"github.com/kevinhwang-dev/random-team/commands/help"
+	"github.com/kevinhwang-dev/random-team/commands/shuffle"
+	"github.com/kevinhwang-dev/random-team/consts"
 
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
