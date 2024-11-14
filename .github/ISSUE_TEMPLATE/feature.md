@@ -1,18 +1,17 @@
 ---
-name: 💡 개발 이슈작성
-about: 개발 작업이 있을 때 작성합니다.
-title: ''
-labels: ''
+name: Feature Request
+about: Suggest a new feature or enhancement
+title: "[FEATURE] "
+labels: enhancement
 assignees: ''
 
 ---
 
-## 개요
-어떤 기능을 개발할지 작성합니다.
+### Describe the Feature
+A clear and concise description of the feature you’d like to see.
 
-## 개발방향
-어떻게 개발할지 작성합니다.
+### Expected Behavior
+Describe how you imagine the feature working and why it would be useful.
 
-## 고려할 점
-개발 진행하면서 추가적으로 생각해야할 부분이나 논의가 필요한 부분에 대해서 작성합니다.
-
+### Additional Context
+Add any other context, screenshots, or examples related to the feature request.

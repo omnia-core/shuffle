@@ -3,8 +3,8 @@ Copyright © 2024 NAME HERE kevinhwang1227@gmail.com
 */
 package main
 
-import "random-team/cmd"
+import "github.com/kevinhwang-dev/random-team/commands"
 
 func main() {
-	cmd.Execute()
+	commands.Execute()
 }
