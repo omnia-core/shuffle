@@ -6,8 +6,8 @@ package commands
 import (
 	"os"
 
-	"github.com/kevinhwang-dev/shuffle/commands/help"
-	"github.com/kevinhwang-dev/shuffle/commands/shuffle"
+	"github.com/omnia-core/shuffle/commands/help"
+	"github.com/omnia-core/shuffle/commands/shuffle"
 
 	"github.com/spf13/cobra"
 )

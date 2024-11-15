@@ -1,4 +1,4 @@
-module github.com/kevinhwang-dev/shuffle
+module github.com/omnia-core/shuffle
 
 go 1.23.0
 

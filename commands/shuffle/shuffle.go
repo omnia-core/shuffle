@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/kevinhwang-dev/shuffle/commands/help"
+	"github.com/omnia-core/shuffle/commands/help"
 
 	"github.com/spf13/cobra"
 )

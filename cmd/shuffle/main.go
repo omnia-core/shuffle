@@ -1,9 +1,9 @@
 /*
-Copyright © 2024 NAME HERE kevinhwang1227@gmail.com
+Copyright © 2024 Seunghyun Hwang kevinhwang1227@gmail.com
 */
 package main
 
-import "github.com/kevinhwang-dev/shuffle/commands"
+import "github.com/omnia-core/shuffle/commands"
 
 func main() {
 	commands.Execute()
