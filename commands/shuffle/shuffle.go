@@ -7,6 +7,8 @@ import (
 	"strings"
 	"time"
 
+	"github.com/kevinhwang-dev/shuffle/commands/help"
+
 	"github.com/spf13/cobra"
 )
 
@@ -45,6 +47,9 @@ func Cmd(cmd *cobra.Command) {
 }
 
 func valid(filePath, names string, teams, size int) error {
+	if filePath == "" && names == "" && teams == 0 && size == 0 {
+		return fmt.Errorf(help.GetHelp("rootCmd"))
+	}
 	if filePath == "" && names == "" {
 		return fmt.Errorf("either -f or -n flag should be provided")
 	}
