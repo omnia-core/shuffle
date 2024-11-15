@@ -1,4 +1,4 @@
-module github.com/kevinhwang-dev/random-team
+module github.com/kevinhwang-dev/shuffle
 
 go 1.23.0
 
